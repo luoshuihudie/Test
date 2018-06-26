@@ -5,11 +5,13 @@
  * Date: 2018/6/19
  * Time: 上午10:48
  */
+namespace Test;
 
-class test
+class Test
 {
-    public function test(){
-        if(true){
+    public function test()
+    {
+        if (true) {
             echo 'nihao';
         }
     }
