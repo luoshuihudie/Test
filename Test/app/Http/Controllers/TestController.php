@@ -15,4 +15,14 @@ class TestController extends Controller
             echo "Test2";
         }
     }
+    public function Test3(){
+        if(true){
+            echo "Test";
+        }
+    }
+    public function Test4(){
+        if(true){
+            echo "Test4";
+        }
+    }
 }
