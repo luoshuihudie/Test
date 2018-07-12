@@ -15,4 +15,12 @@ class Test
             echo 'nihao';
         }
     }
+
+   public function testGit(){
+     if(true){
+}
+}
+
+
+
 }
