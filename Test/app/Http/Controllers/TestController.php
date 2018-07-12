@@ -45,4 +45,9 @@ class TestController extends Controller
 //        $this->dispatch($job);
 //        $this->dispatch(new TagLabel());
     }
+
+    public function test1()
+    {
+        echo "fffff";
+    }
 }
