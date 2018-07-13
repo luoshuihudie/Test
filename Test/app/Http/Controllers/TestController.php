@@ -70,19 +70,19 @@ class MediaReport extends Model
         return $this->hasOne(\App\Models\Company::class, 'id', 'auto_cid');
     }
 
-    function auditor()
+    public function auditor()
     {
         return $this->hasOne(\App\Models\System\User::class, 'id', 'uid');
     }
 
-    function personReportRelation_hjjj()
+    public function personReportRelation_hjjj()
     {
         return $this->hasMany(\App\Models\Person\PersonReportRelation::class, 'report_id', 'id');
     }
 
     public function lpRelations_fff()
     {
-        return $this->hasMany(\App\Models\Lp\LpReportRelation::class,  'report_id', 'id');
+        return $this->hasMany(\App\Models\Lp\LpReportRelation::class, 'report_id', 'id');
     }
     public function lps_ggg()
     {
