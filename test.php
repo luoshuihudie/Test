@@ -1114,11 +1114,9 @@ class Tag
         return $data;
     }
 
-   public function testGit(){
-     if(true){
-}
-}
-
-
-
+    public function testGit()
+    {
+        if (true) {
+        }
+    }
 }
