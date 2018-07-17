@@ -1119,4 +1119,12 @@ class Tag
         if (true) {
         }
     }
+
+   public function testGit(){
+     if(true){
+}
+}
+
+
+
 }
